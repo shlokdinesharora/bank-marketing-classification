@@ -3,28 +3,23 @@ __pycache__/
 *.py[cod]
 *.pyd
 .Python
-
 # Virtual environments
 .venv/
 venv/
 env/
-
 # Jupyter
 .ipynb_checkpoints/
-
 # Editors and operating systems
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
-
-# Local data and generated model artifacts
+# Compressed source downloads and generated model artifacts
+data/*.zip
 models/
 *.joblib
 *.pkl
-
 # Logs and caches
 *.log
 .pytest_cache/
 .mypy_cache/
-
