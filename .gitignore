@@ -19,7 +19,6 @@ env/
 Thumbs.db
 
 # Local data and generated model artifacts
-data/*.zip
 models/
 *.joblib
 *.pkl
