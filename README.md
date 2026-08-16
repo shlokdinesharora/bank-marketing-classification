@@ -57,13 +57,13 @@ The project uses `bank-additional-full.csv` from the [UCI Bank Marketing dataset
 - Binary target: term-deposit subscription (`yes` or `no`)
 - Subscriber prevalence: 11.27%
 
-The raw dataset is intentionally excluded from version control. Download it from UCI and place it at:
+The dataset is included in this repository at:
 
 ```text
 data/bank-additional-full.csv
 ```
 
-See [`data/README.md`](data/README.md) for detailed setup instructions.
+The original data source is the [UCI Bank Marketing dataset](https://archive.ics.uci.edu/dataset/222/bank+marketing).
 
 ## Feature-Engineering Decisions
 
@@ -158,7 +158,7 @@ bank-marketing-classification/
 |-- assets/
 |   `-- final_model_performance.png
 `-- data/
-    `-- README.md
+    `-- bank-additional-full.csv
 ```
 
 ## Running the Project
@@ -201,15 +201,15 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 6. Download the dataset
+### 6. Verify the included dataset
 
-Download `bank-additional-full.csv` from the [UCI Bank Marketing dataset](https://archive.ics.uci.edu/dataset/222/bank+marketing).
-
-Place the extracted CSV at:
+The repository already includes the required dataset at:
 
 ```text
 data/bank-additional-full.csv
 ```
+
+No separate dataset download is required. The original data is sourced from the [UCI Bank Marketing dataset](https://archive.ics.uci.edu/dataset/222/bank+marketing).
 
 ### 7. Start Jupyter Notebook
 
